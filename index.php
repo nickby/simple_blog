@@ -1,5 +1,6 @@
 <?php
-    require_once("database.php");
     require_once("models/articles.php");
-    $article = articles_all();
+
+    $articles = getAllArticles();
+    require_once("views/index.php");
 ?>
