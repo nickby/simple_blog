@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile c:\Server\data\htdocs\simple_blog\admin\.htpasswd
+Require valid-user
+
